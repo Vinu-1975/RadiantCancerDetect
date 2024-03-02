@@ -32,3 +32,17 @@ Install my-project with npm
 
 6. Run `app.py`
 
+## Models Used
+The following machine learning models were utilized in this project for breast cancer detection:
+
+- XGBoost
+- K Nearest Neighbour Classification
+- Random Forest
+- Logistic Regression
+- Decision Tree
+- Convolutional Neural Network
+- Naïve Bayes
+- Hierarchical Clustering
+
+Please note that only a subset of these models is available in the webpage interface for interactive testing. [KNN,RandomForest,LogisticRegression,xgBoost]
+
