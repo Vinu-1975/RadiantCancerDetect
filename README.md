@@ -26,7 +26,9 @@ cd RadiantCancerDetect
 ```
 3. Setup & Activate the virtual environment (if using):
 ```bash
-python3 -m venv env
+python -m venv env  # for Windows
+python3 -m venv myenv # for Unix/Linux
+
 source env/bin/activate  # for Unix/Linux
 env\Scripts\activate    # for Windows
 ```
