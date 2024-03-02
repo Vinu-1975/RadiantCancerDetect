@@ -5,3 +5,30 @@ RadiantCancerDetect uses machine learning to detect breast cancer from mammogram
 - Detects breast cancer from mammogram images.
 - Provides accurate predictions based on machine learning models.
 - User-friendly interface for easy interaction.
+
+## Installation
+
+Install my-project with npm
+
+1. Clone the repository:
+```bash
+    git clone https://github.com/Vinu-1975/RadiantCancerDetect.git
+```
+2. Navigate to the project directory:
+```bash
+  cd RadiantCancerDetect
+```
+3. Setup & Activate the virtual environment (if using):
+```bash
+    python3 -m venv env
+    source env/bin/activate  # for Unix/Linux
+    env\Scripts\activate    # for Windows
+```
+4. Install dependencies:
+```bash
+  pip install -r requirements.txt
+```
+5. Run all the files inside **model_trainers** directory
+
+6. Run **app.py**
+
