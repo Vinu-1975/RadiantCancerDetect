@@ -44,5 +44,5 @@ The following machine learning models were utilized in this project for breast c
 - Naïve Bayes
 - Hierarchical Clustering
 
-Please note that only a subset of these models is available in the webpage interface for interactive testing. [KNN,RandomForest,LogisticRegression,xgBoost]
+*Please note that only a subset of these models is available in the webpage interface for interactive testing:* **[KNN, RandomForest, Logistic Regression, XGBoost]**
 
