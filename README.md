@@ -6,7 +6,7 @@ RadiantCancerDetect uses machine learning to detect breast cancer from mammogram
 - Provides accurate predictions based on machine learning models.
 - User-friendly interface for easy interaction.
 
-- ## Screenshots
+## Screenshots
 
 <img src="Screenshots/homepage.png" alt="Results" width="700" height="400">
 <img src="Screenshots/diagnosticTools.png" alt="Results" width="700" height="400">
