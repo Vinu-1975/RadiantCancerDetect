@@ -28,7 +28,7 @@ Install my-project with npm
 ```bash
   pip install -r requirements.txt
 ```
-5. Run all the files inside **model_trainers** directory
+5. Run all the files inside `model_trainers` directory
 
-6. Run **app.py**
+6. Run `app.py`
 
