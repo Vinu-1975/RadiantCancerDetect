@@ -14,8 +14,6 @@ RadiantCancerDetect uses machine learning to detect breast cancer from mammogram
 
 ## Installation
 
-Install my-project with npm
-
 1. Clone the repository:
 ```bash
 git clone https://github.com/Vinu-1975/RadiantCancerDetect.git
