@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <!-- Add any necessary CSS or JS links here -->
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    {% if prediction is not none %}
+        <div>
+            <h2>Result:</h2>
+            <p>{{ prediction }}</p>
+        </div>
+    {% else %}
+        <p>No prediction available.</p>
+    {% endif %}
+    <a href="/">Go Back</a>
+</body>
+</html>

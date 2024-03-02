@@ -1,0 +1,535 @@
+/*
+	@name know_symptoms
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1536px; width: 1536px; height: 864px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__know_symptoms {
+	top: 0px;
+	left: 0px;
+	width: 1536px;
+	height: 864px;
+	background:rgba(227,174,195,1);
+}
+
+
+#rectangle_20 {
+	top: 43px;
+	left: 148px;
+	width: 1283px;
+	height: 820px;
+}
+
+
+#pain {
+	top: 487px;
+	left: 1065px;
+	width: 64px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#E42A75;
+}
+
+
+#change_in_nipple {
+	top: 762px;
+	left: 910px;
+	width: 282px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#E42A75;
+}
+
+
+#redness {
+	top: 766px;
+	left: 579px;
+	width: 282px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#E42A75;
+}
+
+
+#change_in_size {
+	top: 506px;
+	left: 423px;
+	width: 282px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#E42A75;
+}
+
+
+#nipple_discharge {
+	top: 267px;
+	left: 491px;
+	width: 282px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#E42A75;
+}
+
+
+#lumps {
+	top: 262px;
+	left: 964px;
+	width: 87px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#E42A75;
+}
+
+
+#navbar {
+	top: 0px;
+	left: 0px;
+	width: 1536px;
+	height: 44px;
+}
+
+#group_3 {
+	top: 6px;
+	left: 33px;
+	width: 1418px;
+	height: 38px;
+}
+
+#_bg__group_3_ek1 {
+	top: -6px;
+	left: -33px;
+	width: 1418px;
+	height: 38px;
+	background:#;
+}
+
+#group_2 {
+	top: 0px;
+	left: 591px;
+	width: 827px;
+	height: 38px;
+}
+
+#_bg__group_2_ek1 {
+	top: -6px;
+	left: -624px;
+	width: 827px;
+	height: 38px;
+	background:#;
+}
+
+#frame_3 {
+	top: 4px;
+	left: 0px;
+	width: 771px;
+	height: 34px;
+}
+
+#_bg__frame_3_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 771px;
+	height: 34px;
+	background:#;
+}
+
+#frame_1 {
+	top: 0px;
+	left: 0px;
+	width: 709px;
+	height: 34px;
+}
+
+#_bg__frame_1_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 709px;
+	height: 34px;
+	background:#;
+}
+
+
+#_home {
+	top: 0px;
+	left: 0px;
+	width: 76px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Saira Condensed;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#356D8E;
+}
+
+
+#contact_us {
+	top: 0px;
+	left: 114px;
+	width: 115px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Saira Condensed;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#356D8E;
+}
+
+
+#about {
+	top: 0px;
+	left: 267px;
+	width: 76px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Saira Condensed;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#356D8E;
+}
+
+
+#services {
+	top: 0px;
+	left: 381px;
+	width: 101px;
+	height: 30px;
+	overflow: hidden;
+	font-family: Saira Condensed;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#356D8E;
+}
+
+
+#patient_stories {
+	top: 0px;
+	left: 520px;
+	width: 229px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Saira Condensed;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color:#356D8E;
+}
+
+#logoutbutton {
+	top: 0px;
+	left: 698px;
+	width: 129px;
+	height: 32px;
+}
+
+#_bg__logoutbutton_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 129px;
+	height: 32px;
+	background:#;
+}
+
+
+#rectangle_1 {
+	top: 0px;
+	left: 0px;
+	width: 113px;
+	height: 32px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	background:rgba(53.5,109.36,142.36,1);
+}
+
+
+#log_out {
+	top: 2px;
+	left: 27px;
+	width: 99.4px;
+	height: 34.4px;
+	overflow: hidden;
+	font-family: Saira Condensed;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+#____icon__city_ {
+	top: 1px;
+	left: 0px;
+	width: 34px;
+	height: 30px;
+}
+
+#_bg______icon__city__ek1 {
+	top: -7px;
+	left: -33px;
+	width: 34px;
+	height: 30px;
+	background:#;
+}
+
+#group {
+	top: 0px;
+	left: 0px;
+	width: 34px;
+	height: 30px;
+}
+
+#_bg__group_ek1 {
+	top: -7px;
+	left: -33px;
+	width: 34px;
+	height: 30px;
+	background:#;
+}
+
+
+#vector {
+	top: 12px;
+	left: 5px;
+	width: 3.4px;
+	height: 3px;
+}
+
+
+#vector_ek1 {
+	top: 12px;
+	left: 10px;
+	width: 3.4px;
+	height: 3px;
+}
+
+
+#vector_ek2 {
+	top: 17px;
+	left: 5px;
+	width: 3.4px;
+	height: 3px;
+}
+
+
+#vector_ek3 {
+	top: 21px;
+	left: 5px;
+	width: 3.4px;
+	height: 3px;
+}
+
+
+#vector_ek4 {
+	top: 17px;
+	left: 10px;
+	width: 3.4px;
+	height: 3px;
+}
+
+
+#vector_ek5 {
+	top: 21px;
+	left: 10px;
+	width: 3.4px;
+	height: 3px;
+}
+
+
+#vector_ek6 {
+	top: 14px;
+	left: 26px;
+	width: 3.4px;
+	height: 3px;
+}
+
+
+#vector_ek7 {
+	top: 18px;
+	left: 26px;
+	width: 3.4px;
+	height: 3px;
+}
+
+
+#vector_ek8 {
+	top: 23px;
+	left: 26px;
+	width: 3.4px;
+	height: 3px;
+}
+
+
+#vector_ek9 {
+	top: 0px;
+	left: 0px;
+	width: 34px;
+	height: 30px;
+}
+
+
+#rectangle_24 {
+	top: 123px;
+	left: 921px;
+	width: 129px;
+	height: 122px;
+}
+
+
+#rectangle_25 {
+	top: 350px;
+	left: 1024px;
+	width: 129px;
+	height: 122px;
+}
+
+
+#rectangle_26 {
+	top: 625px;
+	left: 914px;
+	width: 129px;
+	height: 122px;
+}
+
+
+#rectangle_27 {
+	top: 625px;
+	left: 559px;
+	width: 129px;
+	height: 122px;
+}
+
+
+#rectangle_28 {
+	top: 350px;
+	left: 430px;
+	width: 129px;
+	height: 122px;
+}
+
+
+#rectangle_29 {
+	top: 123px;
+	left: 554px;
+	width: 129px;
+	height: 122px;
+}
+
+
+#ellipse_11 {
+	top: 316px;
+	left: 719px;
+	width: 194px;
+	height: 189px;
+	-ms-border-radius: 97px / 94.5px;
+	-o-border-radius: 97px / 94.5px;
+	-moz-border-radius: 97px / 94.5px;
+	-webkit-border-radius: 97px / 94.5px;
+	border-radius: 97px / 94.5px;
+	border: 1px solid #000000;
+	background:rgba(227,174,195,1);
+}
+
+
+#breast_cancer {
+	top: 377px;
+	left: 773px;
+	width: 157px;
+	height: 78px;
+	overflow: hidden;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #000000;
+	color:#FFFFFF;
+}
+
+
+#arrow_1 {
+	top: 210px;
+	left: 680px;
+	width: 82.68px;
+	height: 99.63px;
+}
+
+
+#arrow_2 {
+	top: 516px;
+	left: 630px;
+	width: 103.94px;
+	height: 108.69px;
+}
+
+
+#arrow_5 {
+	top: 516px;
+	left: 866px;
+	width: 84.97px;
+	height: 108.61px;
+}
+
+
+#arrow_4 {
+	top: 412px;
+	left: 576px;
+	width: 134px;
+	height: 14.73px;
+}
+
+
+#arrow_6 {
+	top: 409px;
+	left: 919px;
+	width: 104.03px;
+	height: 14.72px;
+}
+
+
+#arrow_3 {
+	top: 243px;
+	left: 883px;
+	width: 83.7px;
+	height: 81.83px;
+}
+
+
+
+/* Add your custom CSS here */

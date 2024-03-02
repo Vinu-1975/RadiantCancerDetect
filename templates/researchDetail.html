@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../static/predictStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Details</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="../static/img/icon-city.png" alt="logo">
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="./patientstories.html">Patient Stories</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container">
+        <header>
+            <h1>Research Details</h1>
+        </header>
+        <div class="content">
+            <div class="objective-txt">
+                <h2><u>Objective</u></h2>
+                <p>Develop a machine learning model to accurately detect breast cancer from mammogram image data.</p>
+                <p>Domain: Breast cancer detection using machine learning techniques on image data. The goal is to classify
+                    images as benign or malignant.</p>
+            </div>
+            <div class="data-overview">
+                <h2><u>Data Overview</u></h2>
+                <!-- Information about the original data, resizing, augmentation, and image formats -->
+            </div>
+            <div class="model-comparison">
+                <h2><u>Model Comparison</u></h2>
+                <img src="../static/img/ml/pca_vs_ica.jpg" alt="">
+
+                <p>PCA works better than ICA in all cases for dimensionality reduction.</p>
+            </div>
+            <div class="models-used">
+                <h2><u>Models Used</u></h2>
+                <ul>
+                    <li>XGBOOST</li>
+                    <li>K Nearest Neighbour Classification</li>
+                    <li>Random Forest</li>
+                    <li>Logistic Regression</li>
+                    <li>Decision Tree</li>
+                    <li>Convolutional Neural Network</li>
+                    <li>Naïve Bayes</li>
+                    <li>Hierarchical Clustering</li>
+                </ul>
+            </div>
+            <div class="hyperparameter-tuning">
+                <h2><u>Hyper-Parameter Tuning Methods</u></h2>
+                <ul>
+                    <li>Grid Search</li>
+                    <li>Bayesian Optimization</li>
+                </ul>
+            </div>
+            <div class="best-model">
+                <h2><u>Best Model</u></h2>
+                <p>The Bayesian Optimization technique surfaced as the best model with an exemplary cross-validation score. The
+                    model's optimal parameters include a 'max_depth' of 8, 'n_estimators' approximately 175, 'gamma' around 0.015,
+                    'learning_rate' close to 0.233, and a 'colsample_bytree' ratio of 1.0.</p>
+                <img src="../static/img/ml/best_model_1.jpg" alt="graph1_bestModel">
+                <img src="../static/img/ml/best_model_2.jpg" alt="graph2_bestModel">
+            </div>
+            <div class="predicted-outputs">
+                <h2><u>Predicted Outputs</u></h2>
+                <p>With the threshold adjusted to increase the rate of False Positives, the model demonstrates a robust predictive
+                    capability as evidenced by the Log Loss Curve. This suggests a careful balance between sensitivity and
+                    specificity, prioritizing the detection of potential malignancies.</p>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>

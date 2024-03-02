@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <rel="stylesheet" href="../static/styles.css">
+    <title>Suggestion Feedback Page</title>
+    <style>
+        body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e3adc449;
+      background-image: url('dot-pattern.png'); /* Replace with actual path to your dots pattern image */
+      background-position: left top;
+      background-repeat: no-repeat;
+  }
+
+  .container {
+      text-align: center;
+      padding: 50px 20px;
+  }
+
+  header h1 {
+      font-size: 3em;
+      color: #333;
+  }
+
+  .contact-text {
+      margin: 20px 0;
+      color: #666;
+  }
+
+  .contact-form {
+      max-width: 60vh;
+      margin: 0 auto;
+      background: #fff;
+      padding: 40px; /* This padding affects the overall width of the input fields */
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .input {
+      width: calc(100% - 2rem); /* 2rem is subtracted to account for the padding on the container */
+      padding: 10px;
+      margin-bottom: 20px;
+      margin-right: auto; /* Center align the input */
+      margin-left: auto; /* Center align the input */
+      border-radius: 10px;
+      outline: 2px solid #d57ba2;
+      border: 0;
+      font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color: #e2e2e2;
+      outline-offset: 3px;
+      transition: 0.25s;
+  }
+
+  .input:focus {
+      outline-offset: 5px;
+      background-color: #fff;
+  }
+
+  input[type="submit"] {
+      width: calc(100% - 2rem); /* Match the width of text inputs */
+      background-color: #d986aa;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 20px;
+      margin-right: auto; /* Center align the button */
+      margin-left: auto; /* Center align the button */
+  }
+
+  input[type="submit"]:hover {
+      background-color: #b46487;
+  }
+
+  footer {
+      margin-top: 40px;
+      color: #666;
+      font-style: italic;
+  }
+  .footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Suggestion Feedback</h1>
+        </header>
+        <p class="contact-text">Your feedback is important to us. <br>Please use the form below to share your suggestions <br>or thoughts on how we can improve.</p>
+        <div class="contact-form">
+            <form action="process_suggestion.php" method="post">
+                <input class="input" type="text" id="first-name" name="first_name" placeholder="First name*" required>
+                <input class="input" type="text" id="last-name" name="last_name" placeholder="Last name">
+                <input class="input" type="email" id="email" name="email" placeholder="Email*" required>
+                <textarea class="input" id="suggestion" name="suggestion" placeholder="Your suggestions or feedback" rows="4"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <footer class="footer">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+              </div>
+              <ul class="social-icon">
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a></li>
+                <li class="social-icon__item"><a class="social-icon__link" href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a></li>
+              </ul>
+              <ul class="menu">
+                
+                <!-- <li class="menu__item"><a class="menu__link" href="#">Contact</a></li> -->
+          
+              </ul>
+              <p>&copy;2023 RayThunder | All Rights Reserved</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,352 @@
+.dataset-details {
+  background-color: #e3aec3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.dataset-details .div {
+  background-color: #e3aec3;
+  width: 1536px;
+  height: 864px;
+  position: relative;
+}
+
+.dataset-details .overlap {
+  position: absolute;
+  width: 1288px;
+  height: 820px;
+  top: 44px;
+  left: 135px;
+}
+
+.dataset-details .rectangle {
+  position: absolute;
+  width: 1257px;
+  height: 820px;
+  top: 0;
+  left: 0;
+  background-color: #f9fdff;
+  border: 1px solid;
+  border-color: #0000000d;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.dataset-details .overview {
+  position: absolute;
+  width: 1058px;
+  height: 295px;
+  top: 26px;
+  left: 102px;
+}
+
+.dataset-details .group {
+  position: absolute;
+  width: 585px;
+  height: 229px;
+  top: 452px;
+  left: 107px;
+}
+
+.dataset-details .rectangle-2 {
+  position: relative;
+  width: 587px;
+  height: 231px;
+  top: -1px;
+  left: -1px;
+  background-color: #f9fdff;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #00000080;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.dataset-details .text-wrapper {
+  position: absolute;
+  width: 350px;
+  top: 467px;
+  left: 298px;
+  font-family: "Saira Condensed", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dataset-details .img {
+  position: absolute;
+  width: 144px;
+  height: 107px;
+  top: 533px;
+  left: 139px;
+}
+
+.dataset-details .rectangle-3 {
+  position: absolute;
+  width: 144px;
+  height: 107px;
+  top: 533px;
+  left: 329px;
+}
+
+.dataset-details .rectangle-4 {
+  position: absolute;
+  width: 144px;
+  height: 107px;
+  top: 533px;
+  left: 527px;
+}
+
+.dataset-details .overlap-wrapper {
+  position: absolute;
+  width: 327px;
+  height: 74px;
+  top: 586px;
+  left: 786px;
+}
+
+.dataset-details .overlap-group {
+  position: relative;
+  width: 325px;
+  height: 74px;
+}
+
+.dataset-details .group-2 {
+  position: absolute;
+  width: 317px;
+  height: 74px;
+  top: 0;
+  left: 0;
+  background-color: #e3aec3;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #00000066;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.dataset-details .text-wrapper-2 {
+  position: absolute;
+  width: 240px;
+  top: 26px;
+  left: 85px;
+  font-family: "Saira Condensed", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dataset-details .vector {
+  position: absolute;
+  width: 48px;
+  height: 47px;
+  top: 601px;
+  left: 811px;
+}
+
+.dataset-details .blood-cells {
+  position: absolute;
+  width: 87px;
+  height: 82px;
+  top: 704px;
+  left: 1178px;
+}
+
+.dataset-details .blood-cells-2 {
+  height: 82px;
+  top: 652px;
+  left: 1177px;
+  position: absolute;
+  width: 87px;
+}
+
+.dataset-details .blood-cells-3 {
+  height: 82px;
+  top: 602px;
+  left: 1201px;
+  position: absolute;
+  width: 87px;
+}
+
+.dataset-details .blood-cells-4 {
+  height: 56px;
+  top: 764px;
+  left: 924px;
+  position: absolute;
+  width: 87px;
+}
+
+.dataset-details .blood-cells-5 {
+  height: 82px;
+  top: 720px;
+  left: 1077px;
+  position: absolute;
+  width: 87px;
+}
+
+.dataset-details .blood-cells-6 {
+  height: 82px;
+  top: 704px;
+  left: 1131px;
+  position: absolute;
+  width: 87px;
+}
+
+.dataset-details .blood-cells-7 {
+  height: 69px;
+  top: 751px;
+  left: 1044px;
+  position: absolute;
+  width: 87px;
+}
+
+.dataset-details .blood-cells-8 {
+  height: 65px;
+  top: 755px;
+  left: 986px;
+  position: absolute;
+  width: 87px;
+}
+
+.dataset-details .blood-cells-9 {
+  height: 66px;
+  top: 754px;
+  left: 1114px;
+  position: absolute;
+  width: 87px;
+}
+
+.dataset-details .blood-cells-10 {
+  height: 66px;
+  top: 754px;
+  left: 1177px;
+  position: absolute;
+  width: 87px;
+}
+
+.dataset-details .overlap-group-wrapper {
+  position: absolute;
+  width: 1536px;
+  height: 44px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/navbar.svg);
+  background-size: 100% 100%;
+}
+
+.dataset-details .overlap-2 {
+  position: relative;
+  width: 827px;
+  height: 38px;
+  top: 6px;
+  left: 624px;
+}
+
+.dataset-details .frame {
+  display: flex;
+  flex-direction: column;
+  width: 771px;
+  height: 34px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 4px;
+  left: 0;
+}
+
+.dataset-details .navbar {
+  display: flex;
+  width: 709px;
+  align-items: flex-start;
+  gap: 55px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.dataset-details .text-wrapper-3 {
+  width: 59px;
+  position: relative;
+  height: 24px;
+  margin-top: -1px;
+  font-family: "Saira Condensed", Helvetica;
+  font-weight: 700;
+  color: #356d8e;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.dataset-details .text-wrapper-4 {
+  position: relative;
+  width: 98px;
+  height: 24px;
+  margin-top: -1px;
+  font-family: "Saira Condensed", Helvetica;
+  font-weight: 700;
+  color: #356d8e;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.dataset-details .text-wrapper-5 {
+  width: 84px;
+  position: relative;
+  height: 24px;
+  margin-top: -1px;
+  font-family: "Saira Condensed", Helvetica;
+  font-weight: 700;
+  color: #356d8e;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.dataset-details .text-wrapper-6 {
+  position: relative;
+  width: 212px;
+  height: 34px;
+  margin-top: -1px;
+  margin-right: -23px;
+  font-family: "Saira Condensed", Helvetica;
+  font-weight: 700;
+  color: #356d8e;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dataset-details .logoutbutton {
+  position: absolute;
+  width: 129px;
+  height: 32px;
+  top: 0;
+  left: 698px;
+}
+
+.dataset-details .div-wrapper {
+  position: relative;
+  width: 113px;
+  height: 32px;
+  background-color: #356d8e;
+  border-radius: 12px;
+}
+
+.dataset-details .text-wrapper-7 {
+  position: absolute;
+  width: 86px;
+  top: 1px;
+  left: 27px;
+  font-family: "Saira Condensed", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
