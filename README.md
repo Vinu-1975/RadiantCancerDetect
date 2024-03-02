@@ -47,7 +47,7 @@ The following machine learning models were utilized in this project for breast c
 *Please note that only a subset of these models is available in the webpage interface for interactive testing:* **[KNN, RandomForest, Logistic Regression, XGBoost]**
 
 ## Presentation
-A PowerPoint presentation containing detailed information about the project has been uploaded. You can find it [here](link-to-presentation).
+A PowerPoint presentation containing detailed information about the project has been uploaded. You can find it [here](https://github.com/Vinu-1975/RadiantCancerDetect/blob/main/ProjectDetails.pptx).
 
 
 
